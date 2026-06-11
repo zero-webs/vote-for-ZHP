@@ -10,4 +10,4 @@ export async function onRequest({ request, env }) {
   const tokenRes = await fetch("https://discord.com/api/oauth2/token", {
     method: "POST",
     headers: {
-      "Content-Type": "application/x-www
+      "Content-Type": "application/x-www-form-urlencoded"
