@@ -3,13 +3,13 @@ compatibility_date = "2026-01-01"
 
 pages_build_output_dir = "."
 
-[[d1_databases]]
-binding = "DB"
-database_name = "votes_db"
-database_id = "YOUR_D1_DATABASE_ID"
+# KV BINDING (THIS REPLACES D1)
+[[kv_namespaces]]
+binding = "VOTES"
+id = "YOUR_KV_NAMESPACE_ID"
 
 [vars]
 DISCORD_CLIENT_ID = "1514619949887393874"
-DISCORD_CLIENT_SECRET = "7rX-yakrJ8PJpfCDIJErnX6Yd-HBa7V-"
+DISCORD_CLIENT_SECRET = "YOUR_DISCORD_CLIENT_SECRET"
 DISCORD_REDIRECT_URI = "https://YOUR_SITE.pages.dev/auth/callback"
 DISCORD_INVITE = "https://discord.gg/Yb7Hydn6th"
