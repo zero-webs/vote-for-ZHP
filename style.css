@@ -1,0 +1,27 @@
+body {
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+#votes {
+  font-size: 50px;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #5865F2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
